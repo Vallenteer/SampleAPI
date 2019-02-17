@@ -13,7 +13,7 @@ namespace SampleAPI.Controllers
         //POST: karyawan/get/1
         public async Task<IHttpActionResult> Get()
         {
-            string success = "true";
+            bool success = true;
             // Model Validation 
             if (ModelState.IsValid)
             {
@@ -64,7 +64,7 @@ namespace SampleAPI.Controllers
         //POST: karyawan/get/1
         public async Task<IHttpActionResult> Get(int id)
         {
-            string success = "true";
+            bool success = true;
             // Model Validation 
             if (ModelState.IsValid)
             {
@@ -114,7 +114,7 @@ namespace SampleAPI.Controllers
         //POST: karyawan/Add 
         public async Task<IHttpActionResult> Put([FromBody]karyawan_test karyawan)
         {
-            string success = "true";
+            bool success = true;
             // Model Validation 
             if (ModelState.IsValid)
             {
@@ -160,7 +160,7 @@ namespace SampleAPI.Controllers
         //POST: karyawan/Add 
         public async Task<IHttpActionResult> Post([FromBody]karyawan_test karyawan)
         {
-            string success = "true";
+            bool success = true;
             // Model Validation 
             if (ModelState.IsValid)
             {
@@ -207,7 +207,7 @@ namespace SampleAPI.Controllers
         //POST: karyawan/get/1
         public async Task<IHttpActionResult> Delete(int id)
         {
-            string success = "true";
+            bool success = true;
             // Model Validation 
             if (ModelState.IsValid)
             {
