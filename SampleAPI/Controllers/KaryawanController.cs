@@ -227,7 +227,7 @@ namespace SampleAPI.Controllers
                         }).ToList();
 
 
-                        return Json(new { result = listKaryawan });
+                        return Json(new { result = success });
 
                     }
                     #endregion
